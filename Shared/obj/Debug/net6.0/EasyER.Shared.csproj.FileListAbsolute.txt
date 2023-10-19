@@ -1,0 +1,28 @@
+C:\projects\EasyER\Shared\bin\Debug\net6.0\EasyER.Shared.deps.json
+C:\projects\EasyER\Shared\bin\Debug\net6.0\EasyER.Shared.dll
+C:\projects\EasyER\Shared\bin\Debug\net6.0\ref\EasyER.Shared.dll
+C:\projects\EasyER\Shared\bin\Debug\net6.0\EasyER.Shared.pdb
+C:\projects\EasyER\Shared\obj\Debug\net6.0\EasyER.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\EasyER\Shared\obj\Debug\net6.0\EasyER.Shared.AssemblyInfoInputs.cache
+C:\projects\EasyER\Shared\obj\Debug\net6.0\EasyER.Shared.AssemblyInfo.cs
+C:\projects\EasyER\Shared\obj\Debug\net6.0\EasyER.Shared.csproj.CoreCompileInputs.cache
+C:\projects\EasyER\Shared\obj\Debug\net6.0\EasyER.Shared.dll
+C:\projects\EasyER\Shared\obj\Debug\net6.0\ref\EasyER.Shared.dll
+C:\projects\EasyER\Shared\obj\Debug\net6.0\EasyER.Shared.pdb
+C:\projects\EasyER\Shared\bin\Debug\net6.0\EasyER.Shared.runtimeconfig.json
+C:\projects\EasyER\Shared\obj\Debug\net6.0\EasyER.Shared.csproj.AssemblyReference.cache
+C:\projects\EasyER\Shared\obj\Debug\net6.0\EasyER.Shared.genruntimeconfig.cache
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Shared\bin\Debug\net6.0\EasyER.Shared.deps.json
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Shared\bin\Debug\net6.0\EasyER.Shared.runtimeconfig.json
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Shared\bin\Debug\net6.0\EasyER.Shared.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Shared\bin\Debug\net6.0\ref\EasyER.Shared.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Shared\bin\Debug\net6.0\EasyER.Shared.pdb
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Shared\obj\Debug\net6.0\EasyER.Shared.csproj.AssemblyReference.cache
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Shared\obj\Debug\net6.0\EasyER.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Shared\obj\Debug\net6.0\EasyER.Shared.AssemblyInfoInputs.cache
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Shared\obj\Debug\net6.0\EasyER.Shared.AssemblyInfo.cs
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Shared\obj\Debug\net6.0\EasyER.Shared.csproj.CoreCompileInputs.cache
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Shared\obj\Debug\net6.0\EasyER.Shared.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Shared\obj\Debug\net6.0\ref\EasyER.Shared.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Shared\obj\Debug\net6.0\EasyER.Shared.pdb
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Shared\obj\Debug\net6.0\EasyER.Shared.genruntimeconfig.cache

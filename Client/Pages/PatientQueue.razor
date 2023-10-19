@@ -1,0 +1,158 @@
+﻿@page "/PatientQueue"
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Components.WebAssembly.Authentication
+@using System.Security.Claims
+@using EasyER.Shared
+@using EasyER.Server.Models
+
+@inject HttpClient Http
+@inject NavigationManager NavManager
+@inject AuthenticationStateProvider authStateProvider
+
+<PageTitle>Patient Information</PageTitle>
+
+<h1>Patient Queue</h1>
+
+<p>Emergency Room Queue based on patient trauma levels.</p>
+
+@if (queue == null)
+{
+    <div class="spinner-border text-primary" role="status">
+        <span class="visually-hidden">Loading...</span>
+    </div>
+}
+else if(queue.Count == 0 && OnePatientQueueFlag == false)
+{
+    <p>Queue is Empty</p>
+}
+else if(queue.Count == 1 && OnePatientQueueFlag == true)
+{
+    <div class="card text-center">
+        <div class="card-header">
+            First Patient In Queue
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">Trauma Level: <b>@firstPatient.TraumaLevel</b></h5>
+            <p class="card-text">Patient Name: <b>@firstPatient.FirstName @firstPatient.LastName</b> &nbsp;&nbsp; Injury: <b>@firstPatient.InjuryName</b></p>
+            <p>Description: @firstPatient.InjuryDescription</p>
+            <AuthorizeView Roles="Doctor">
+                @if (doctor.CurrentPatientId == 0)
+                {
+                    <button class="btn btn-danger" @onclick="AcceptPatient">Accept Patient</button>
+                }
+            </AuthorizeView>
+        </div>
+        <div class="card-footer text-muted">
+            Time Admitted: @firstPatient.TimeAdmitted
+        </div>
+    </div>
+}
+else
+{
+    <div class="card text-center">
+        <div class="card-header">
+            First Patient In Queue
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">Trauma Level: <b>@firstPatient.TraumaLevel</b></h5>
+            <p class="card-text">Patient Name: <b>@firstPatient.FirstName @firstPatient.LastName</b> &nbsp;&nbsp; Injury: <b>@firstPatient.InjuryName</b></p>
+            <p>Description: @firstPatient.InjuryDescription</p>
+            <AuthorizeView Roles="Doctor">
+                @if (doctor.CurrentPatientId == 0)
+                {
+                    <button class="btn btn-danger" @onclick="AcceptPatient">Accept Patient</button>
+                }
+            </AuthorizeView>
+        </div>
+        <div class="card-footer text-muted">
+            Time Admitted: @firstPatient.TimeAdmitted
+        </div>
+    </div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Trauma Level</th>
+                <th>Injury Name</th>
+                <th>Time Admitted</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var patient in queue)
+            {
+                <tr>
+                    <td>@patient.FirstName</td>
+                    <td>@patient.LastName</td>
+                    <td>@patient.TraumaLevel</td>
+                    <td>@patient.InjuryName</td>
+                    <td>@patient.TimeAdmitted</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+
+@code {
+    private List<Patient>? queue;
+
+    private ClaimsPrincipal? user; 
+
+    private Patient? firstPatient;
+
+    private Doctor? doctor;
+
+    private bool OnePatientQueueFlag = false;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {            
+            await GetLoggedInDoctor();
+
+            queue = await Http.GetFromJsonAsync<List<Patient>>("Patient/queue");
+
+            if(queue.Count != 0)
+            {
+                firstPatient = queue[0];
+                if(queue.Count == 1)
+                {
+                    OnePatientQueueFlag = true;
+                }
+                queue.Remove(firstPatient);
+            }
+        }
+        catch (AccessTokenNotAvailableException exception)
+        {
+            exception.Redirect();
+        }
+    }
+
+
+    //Attaches the DoctorId to Patient and vice versa
+    //Sets the Patient as BeingSeen
+    //Updates the Patient
+    //Redirects the doctor to the doctor status
+    private async Task AcceptPatient()
+    {
+        await GetLoggedInDoctor();
+        firstPatient.DoctorId = doctor.DoctorId;
+        firstPatient.IsBeingSeen = true;
+        doctor.CurrentPatientId = firstPatient.PatientId;
+
+        var respone = await Http.PutAsJsonAsync<Patient>("Patient/update", firstPatient);
+        var respone2 = await Http.PutAsJsonAsync<Doctor>("Doctor/update", doctor);
+        NavManager.NavigateTo("/doctor-status");
+    }
+
+    //Gets the Logged In Doctor's Object so that the foreign key relations can be set
+    private async Task GetLoggedInDoctor()
+    {
+        var authState = await authStateProvider.GetAuthenticationStateAsync();
+        user = authState.User;
+        string name = user.Identity.Name;
+        doctor = await Http.GetFromJsonAsync<Doctor>("Doctor/id/"+name);
+    }
+
+ }

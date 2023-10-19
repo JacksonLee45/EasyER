@@ -1,0 +1,86 @@
+﻿@page "/new-patient"
+@using EasyER.Server.Models
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Components.WebAssembly.Authentication
+@using Microsoft.AspNetCore.Identity;
+@using EasyER.Shared
+@using System.Security.Claims
+
+
+@attribute [Authorize]
+@inject HttpClient Http
+@inject NavigationManager NavManager
+@inject AuthenticationStateProvider authStateProvider
+
+<PageTitle>New Patient Information</PageTitle>
+
+<h1>Patient Information</h1>
+
+<div class="container p-3 m-3">
+    <h2>New Patient Form </h2>
+    <div class="row">
+            <div class="col-mid-6">
+                <form id="statsForm" @onsubmit="PostNewPatient">
+                    <div class="form-group">
+                        <label for="FirstName">First Name</label>
+                        <input type="text" name="Name" @bind-value="patients.FirstName" class="form-control"  />
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" name="GamesPlayed" @bind-value="patients.LastName" class="form-control"  />
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Trauma Level</label>
+                        <input type="text" name="Wins" @bind-value="patients.TraumaLevel" class="form-control"  />
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Injury Name</label>
+                        <input type="text" name="Wins" @bind-value="patients.InjuryName" class="form-control"  />
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Injury Description</label>
+                        <input type="text" name="Wins" @bind-value="patients.InjuryDescription" class="form-control"  />
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-success" >Submit</button>
+                    </div>
+                </form>
+        </div>
+    </div>
+</div>
+
+@code {
+    private ApplicationUser[]? users;
+
+    private ClaimsPrincipal user;
+
+    private Nurse nurse;
+
+    private Patient patients = new Patient();
+
+    private async void PostNewPatient()
+    {
+        try
+        {
+            await GetLoggedInNurse();
+            var respone = await Http.PostAsJsonAsync<Patient>("Patient/new", patients);
+            NavManager.NavigateTo("/ListPatients");
+        }
+        catch (AccessTokenNotAvailableException exception)
+        {
+            exception.Redirect();
+        }
+    }
+
+    //Retreives the logged in Nurse's Object so the Nurse's Id can be attached to the patient
+    private async Task GetLoggedInNurse()
+    {
+        var authState = await authStateProvider.GetAuthenticationStateAsync();
+        user = authState.User;
+        string name = user.Identity.Name;
+
+        Nurse nurse = await Http.GetFromJsonAsync<Nurse>("Nurse/id/"+name);
+        patients.NurseId = nurse.NurseId;
+    }
+
+    }

@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "18cb9699-d910-4ff1-842a-c99fc2d6f4de": {
+      "ProjectGuid": "18cb9699-d910-4ff1-842a-c99fc2d6f4de",
+      "DisplayName": "EasyER.Client",
+      "ColorIndex": 0
+    },
+    "9b03c151-3776-4366-9e30-ab281689573a": {
+      "ProjectGuid": "9b03c151-3776-4366-9e30-ab281689573a",
+      "DisplayName": "EasyER.Server",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "3b91f92b-2492-4ffa-a59d-50c25a4e1443": {
+      "ProjectGuid": "3b91f92b-2492-4ffa-a59d-50c25a4e1443",
+      "DisplayName": "EasyER.Shared",
+      "ColorIndex": 2
+    },
+    "919fd655-f067-4ba2-b932-d926e85dd6b4": {
+      "ProjectGuid": "919fd655-f067-4ba2-b932-d926e85dd6b4",
+      "DisplayName": "Script Documents",
+      "ColorIndex": 3
+    },
+    "65b245b9-9c14-4bc7-8649-da4c79cd78e5": {
+      "ProjectGuid": "65b245b9-9c14-4bc7-8649-da4c79cd78e5",
+      "DisplayName": "EasyERTests",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}

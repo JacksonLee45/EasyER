@@ -1,0 +1,79 @@
+﻿@page "/ListNurses"
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Components.WebAssembly.Authentication
+@using System.Security.Claims
+@using EasyER.Shared
+@using EasyER.Server.Models
+
+
+@attribute [Authorize]
+@inject HttpClient Http
+@inject NavigationManager NavManager
+@inject AuthenticationStateProvider GetAuthenticationStateAsync
+
+<PageTitle>Nurse Information</PageTitle>
+
+<h1>Nurse Information</h1>
+
+@if (nurses == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Nurse Id</th>
+                <th>Email</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var nurse in nurses)
+            {
+                <tr>
+                    <td>@nurse.FirstName</td>
+                    <td>@nurse.LastName</td>
+                    <td>@nurse.NurseId</td>
+                    <td>@nurse.Email</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+}
+
+@code {
+    private Nurse[]? nurses;
+    private ApplicationUser[]? users;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            nurses = await Http.GetFromJsonAsync<Nurse[]>("Nurse/all");
+        }
+        catch (AccessTokenNotAvailableException exception)
+        {
+            exception.Redirect();
+        }
+    }
+
+    /*
+    private async Task DeactivatePatient(int patientId)
+    {
+        try
+        {
+            var response = await Http.DeleteAsync("Patient/delete/" + patientId);
+            NavManager.NavigateTo("/ListPatients", forceLoad: true);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+        }
+    }
+    */
+}

@@ -1,0 +1,82 @@
+﻿@page "/update-patient/{PatientId}"
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Components.WebAssembly.Authentication
+@using EasyER.Shared
+
+
+@attribute [Authorize]
+@inject HttpClient Http
+@inject NavigationManager NavManager
+
+<PageTitle>Update Patient Information</PageTitle>
+
+<h1>Patient Information</h1>
+
+<p>This component demonstrates updating data into the server.</p>
+
+<div class="container">
+    <h2>New Patient Form </h2>
+    <div class="row">
+            <div class="col-mid-6">
+                <form id="statsForm" @onsubmit="UpdatePatient">
+                    <div class="form-group">
+                        <label for="FirstName">First Name</label>
+                        <input type="text" name="Name" @bind-value="patients.FirstName" class="form-control"  />
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" name="GamesPlayed" @bind-value="patients.LastName" class="form-control"  />
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Trauma Level</label>
+                        <input type="text" name="Wins" @bind-value="patients.TraumaLevel" class="form-control"  />
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Injury Name</label>
+                        <input type="text" name="Wins" @bind-value="patients.InjuryName" class="form-control"  />
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Injury Description</label>
+                        <input type="text" name="Wins" @bind-value="patients.InjuryDescription" class="form-control"  />
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-success" >Submit</button>
+                    </div>
+                </form>
+        </div>
+    </div>
+</div>
+
+@code {
+
+    [Parameter]
+    public string PatientId { get; set; }
+
+    private Patient patients = new Patient();
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            patients = await Http.GetFromJsonAsync<Patient>("Patient/"+PatientId);
+        }
+        catch (AccessTokenNotAvailableException exception)
+        {
+            exception.Redirect();
+        }
+    }
+
+    private async void UpdatePatient()
+    {
+        try
+        {
+            var respone = await Http.PutAsJsonAsync<Patient>("Patient/update", patients);
+            NavManager.NavigateTo("/ListPatients");
+        }
+        catch (AccessTokenNotAvailableException exception)
+        {
+            exception.Redirect();
+        }
+    }
+}

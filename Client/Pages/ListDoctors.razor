@@ -1,0 +1,82 @@
+﻿@page "/ListDoctors"
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Components.WebAssembly.Authentication
+@using System.Security.Claims
+@using EasyER.Shared
+@using EasyER.Server.Models
+
+
+@attribute [Authorize]
+@inject HttpClient Http
+@inject NavigationManager NavManager
+@inject AuthenticationStateProvider GetAuthenticationStateAsync
+
+<PageTitle>Doctor Information</PageTitle>
+
+<h1>Doctor Information</h1>
+
+@if (doctors == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>On Call</th>
+                <th>Doctor Id</th>
+                <th>Email</th>
+                <th>Current Patient Id</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var doctor in doctors)
+            {
+                <tr>
+                    <td>@doctor.FirstName</td>
+                    <td>@doctor.LastName</td>
+                    <td>@doctor.OnCall</td>
+                    <td>@doctor.DoctorId</td>
+                    <td>@doctor.Email</td>
+                    <td>@doctor.CurrentPatientId</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+}
+
+@code {
+    private Doctor[]? doctors;
+    private ApplicationUser[]? users;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            doctors = await Http.GetFromJsonAsync<Doctor[]>("Doctor/all");
+        }
+        catch (AccessTokenNotAvailableException exception)
+        {
+            exception.Redirect();
+        }
+    }
+
+    /*
+    private async Task DeactivatePatient(int patientId)
+    {
+        try
+        {
+            var response = await Http.DeleteAsync("Patient/delete/" + patientId);
+            NavManager.NavigateTo("/ListPatients", forceLoad: true);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+        }
+    }
+    */
+}

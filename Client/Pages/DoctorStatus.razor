@@ -1,0 +1,93 @@
+﻿@page "/doctor-status"
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Components.WebAssembly.Authentication
+@using System.Security.Claims
+@using EasyER.Shared
+@using EasyER.Server.Models
+
+@inject HttpClient Http
+@inject NavigationManager NavManager
+@inject AuthenticationStateProvider authStateProvider
+
+<PageTitle>Doctor Information</PageTitle>
+
+<h1>Doctor Status</h1>
+
+@if (doctor.CurrentPatientId == 0)
+{
+<div class="card text-center">
+  <div class="card-header">
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">No Active Patient</h5>
+    <a href="PatientQueue" class="btn btn-primary" role="button">See Next Patient in Queue</a>
+  </div>
+  <div class="card-footer text-muted">
+  </div>
+</div>
+
+}
+else
+{
+    <div class="card text-center">
+        <div class="card-header">
+            Current Doctor's Active Patient
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">Trauma Level: <b>@patient.TraumaLevel</b></h5>
+            <p class="card-text">Patient Name: <b>@patient.FirstName @patient.LastName</b> &nbsp;&nbsp; Injury: <b>@patient.InjuryName</b></p>
+            <p>Description: @patient.InjuryDescription</p>
+             <button class="btn btn-success" @onclick="ClearPatient">Clear Patient</button>
+        </div>
+        <div class="card-footer text-muted">
+            Time Admitted: @patient.TimeAdmitted
+        </div>
+    </div>
+    <div class="d-grid gap-2 col-6 mx-auto">
+        <a href="PatientQueue" class="btn btn-primary" role="button">See Next Patient in Queue</a>
+    </div>
+}
+
+@code {
+
+    private Doctor? doctor = new Doctor();
+
+    private Patient? patient;
+
+    private ClaimsPrincipal? user;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            await GetLoggedInDoctor();
+            if(doctor.CurrentPatientId != 0)
+            {
+                patient = await Http.GetFromJsonAsync<Patient>("Patient/" + doctor.CurrentPatientId);
+            }
+
+        }
+        catch (AccessTokenNotAvailableException exception)
+        {
+            exception.Redirect();
+        }
+    }
+
+    private async Task GetLoggedInDoctor()
+    {
+        var authState = await authStateProvider.GetAuthenticationStateAsync();
+        user = authState.User;
+        string name = user.Identity.Name;
+
+        doctor = await Http.GetFromJsonAsync<Doctor>("Doctor/id/"+name);
+    }
+
+    private async Task ClearPatient()
+    {
+        patient.IsBeingSeen = false;
+        patient.IsActive = false;
+        doctor.CurrentPatientId = 0;
+        var respone = await Http.PutAsJsonAsync<Patient>("Patient/update", patient);
+        var respone2 = await Http.PutAsJsonAsync<Doctor>("Doctor/update", doctor);
+    }
+}

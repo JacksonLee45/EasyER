@@ -1,0 +1,139 @@
+﻿@page "/new-employee"
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Components.WebAssembly.Authentication
+@using EasyER.Shared
+
+
+@attribute [Authorize]
+@inject HttpClient Http
+@inject NavigationManager NavManager
+@inject IJSRuntime JSRuntime
+
+<PageTitle>New Employee Information</PageTitle>
+
+<h1>Create New Employee Account</h1>
+
+
+<div class="container p-3 m-3">
+    <h2>New Nurse Form</h2>
+    <div class="row">
+            <div class="col-mid-6">
+                <form id="statsForm" @onsubmit="PostNewNurse">
+                    <div class="form-group">
+                        <label for="FirstName">First Name</label>
+                        <input type="text" name="FirstName" @bind-value="nurses.FirstName" class="form-control"  />
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" name="LastName" @bind-value="nurses.LastName" class="form-control"  />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="text" name="Email" @bind-value="nurses.Email" class="form-control"  />
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Generated Password:</label>
+                        <span style="margin:1rem;">@password1</span> <span type="button" class="oi oi-clipboard" @onclick="@(e => CopyClip(password1))"> </span>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-success" >Submit</button>   
+                    </div>
+                </form>
+        </div>
+    </div>
+</div>
+
+<div class="container p-3 m-3">
+    <h2>New Doctor Form</h2>
+    <div class="row">
+            <div class="col-mid-6">
+                <form id="statsForm" @onsubmit="PostNewDoctor">
+                    <div class="form-group">
+                        <label for="FirstName">First Name</label>
+                        <input type="text" name="FirstName" @bind-value="doctors.FirstName" class="form-control"  />
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" name="LastName" @bind-value="doctors.LastName" class="form-control"  />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="text" name="Email" @bind-value="doctors.Email" class="form-control"  />
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Generated Password:</label>
+                        <span style="margin:1rem;">@password2</span> <span type="button" class="oi oi-clipboard" @onclick="@(e => CopyClip(password2))"> </span>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-success" >Submit</button>
+                    </div>
+                </form>
+        </div>
+    </div>
+</div>
+
+
+@code {
+    private Nurse nurses = new Nurse();
+
+    private string password1 = Guid.NewGuid().ToString("n").Substring(0, 8)+"P!"; //P! is added to the end to satisfy identity's password requirements - For Nurse Form
+    private string password2 = Guid.NewGuid().ToString("n").Substring(0, 8)+"P!"; //P! is added to the end to satisfy identity's password requirements - For Doctor Form
+
+
+    private async Task CopyClip(string password)
+    {
+        await JSRuntime.InvokeVoidAsync("navigator.clipboard.writeText", password);
+    }
+
+    private async void PostNewNurse()
+    {
+        try
+        {
+            UserBundle bundle = new UserBundle();
+
+            bundle.Email = nurses.Email;
+            bundle.Password = password1;
+
+            StringBundle stringbundle = new StringBundle();
+
+            stringbundle.Email = nurses.Email;
+            stringbundle.Role = "Nurse";
+
+            await Http.PostAsJsonAsync<Nurse>("Nurse/new", nurses);
+            await Http.PostAsJsonAsync<UserBundle>("Users/create", bundle);
+            await Http.PostAsJsonAsync<StringBundle>("Users/role", stringbundle);
+
+        }
+        catch (AccessTokenNotAvailableException exception)
+        {
+            exception.Redirect();
+        }
+    }
+
+    private Doctor doctors = new Doctor();
+
+    private async void PostNewDoctor()
+    {
+        try
+        {
+            UserBundle bundle = new UserBundle();
+
+            bundle.Email = doctors.Email;
+            bundle.Password = password2;
+
+            StringBundle stringbundle = new StringBundle();
+
+            stringbundle.Email = doctors.Email;
+            stringbundle.Role = "Doctor";
+
+            await Http.PostAsJsonAsync<Doctor>("Doctor/new", doctors);
+            await Http.PostAsJsonAsync<UserBundle>("Users/create", bundle);
+            await Http.PostAsJsonAsync<StringBundle>("Users/role", stringbundle);
+
+        }
+        catch (AccessTokenNotAvailableException exception)
+        {
+            exception.Redirect();
+        }
+    }
+}

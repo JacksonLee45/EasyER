@@ -1,0 +1,87 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = browser
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = true
+build_property.IncludeAllContentForSelfExtract = 
+build_property.RootNamespace = EasyER.Client
+build_property.RootNamespace = EasyER.Client
+build_property.ProjectDir = C:\projects\EasyER\Client\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\projects\EasyER\Client
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/projects/EasyER/Client/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/projects/EasyER/Client/Pages/Authentication.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aGVudGljYXRpb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/projects/EasyER/Client/Pages/DoctorStatus.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRG9jdG9yU3RhdHVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/projects/EasyER/Client/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/projects/EasyER/Client/Pages/ListDoctors.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlzdERvY3RvcnMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/projects/EasyER/Client/Pages/ListNurses.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlzdE51cnNlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/projects/EasyER/Client/Pages/ListPatients.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlzdFBhdGllbnRzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/projects/EasyER/Client/Pages/NursePatientQueue.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTnVyc2VQYXRpZW50UXVldWUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/projects/EasyER/Client/Pages/PatientQueue.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGF0aWVudFF1ZXVlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/projects/EasyER/Client/Pages/PostEmployee.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9zdEVtcGxveWVlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/projects/EasyER/Client/Pages/PostPatient.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9zdFBhdGllbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/projects/EasyER/Client/Pages/UpdatePatients.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXBkYXRlUGF0aWVudHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/projects/EasyER/Client/Shared/LoginDisplay.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvZ2luRGlzcGxheS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/projects/EasyER/Client/Shared/RedirectToLogin.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFJlZGlyZWN0VG9Mb2dpbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/projects/EasyER/Client/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/projects/EasyER/Client/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-fd1b4iaqbv
+
+[C:/projects/EasyER/Client/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-a205bqvkha

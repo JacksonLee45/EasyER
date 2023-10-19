@@ -1,0 +1,316 @@
+C:\projects\EasyER\Server\bin\Debug\net6.0\EasyER.Client.staticwebassets.runtime.json
+C:\projects\EasyER\Server\bin\Debug\net6.0\appsettings.Development.json
+C:\projects\EasyER\Server\bin\Debug\net6.0\appsettings.json
+C:\projects\EasyER\Server\bin\Debug\net6.0\BlazorDebugProxy\BrowserDebugHost.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\BlazorDebugProxy\BrowserDebugHost.runtimeconfig.json
+C:\projects\EasyER\Server\bin\Debug\net6.0\BlazorDebugProxy\BrowserDebugProxy.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\BlazorDebugProxy\Microsoft.CodeAnalysis.CSharp.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\BlazorDebugProxy\Microsoft.CodeAnalysis.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\BlazorDebugProxy\Newtonsoft.Json.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\EasyER.Server.staticwebassets.runtime.json
+C:\projects\EasyER\Server\bin\Debug\net6.0\EasyER.Server.exe
+C:\projects\EasyER\Server\bin\Debug\net6.0\EasyER.Server.deps.json
+C:\projects\EasyER\Server\bin\Debug\net6.0\EasyER.Server.runtimeconfig.json
+C:\projects\EasyER\Server\bin\Debug\net6.0\EasyER.Server.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\ref\EasyER.Server.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\EasyER.Server.pdb
+C:\projects\EasyER\Server\bin\Debug\net6.0\AutoMapper.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\Duende.IdentityServer.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\Duende.IdentityServer.AspNetIdentity.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\Duende.IdentityServer.EntityFramework.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\Duende.IdentityServer.EntityFramework.Storage.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\Duende.IdentityServer.Storage.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\Humanizer.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\IdentityModel.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\Microsoft.AspNetCore.ApiAuthorization.IdentityServer.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Components.WebAssembly.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Components.WebAssembly.Server.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\Microsoft.JSInterop.WebAssembly.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\EasyER.Client.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\EasyER.Shared.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\EasyER.Client.pdb
+C:\projects\EasyER\Server\bin\Debug\net6.0\EasyER.Shared.pdb
+C:\projects\EasyER\Server\obj\Debug\net6.0\EasyER.Server.csproj.AssemblyReference.cache
+C:\projects\EasyER\Server\obj\Debug\net6.0\EasyER.Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\EasyER\Server\obj\Debug\net6.0\EasyER.Server.AssemblyInfoInputs.cache
+C:\projects\EasyER\Server\obj\Debug\net6.0\EasyER.Server.AssemblyInfo.cs
+C:\projects\EasyER\Server\obj\Debug\net6.0\EasyER.Server.csproj.CoreCompileInputs.cache
+C:\projects\EasyER\Server\obj\Debug\net6.0\EasyER.Server.MvcApplicationPartsAssemblyInfo.cs
+C:\projects\EasyER\Server\obj\Debug\net6.0\EasyER.Server.MvcApplicationPartsAssemblyInfo.cache
+C:\projects\EasyER\Server\obj\Debug\net6.0\EasyER.Server.RazorAssemblyInfo.cache
+C:\projects\EasyER\Server\obj\Debug\net6.0\EasyER.Server.RazorAssemblyInfo.cs
+C:\projects\EasyER\Server\obj\Debug\net6.0\staticwebassets.build.json
+C:\projects\EasyER\Server\obj\Debug\net6.0\staticwebassets.development.json
+C:\projects\EasyER\Server\obj\Debug\net6.0\scopedcss\bundle\EasyER.Server.styles.css
+C:\projects\EasyER\Server\obj\Debug\net6.0\EasyER.Server.csproj.CopyComplete
+C:\projects\EasyER\Server\obj\Debug\net6.0\EasyER.Server.dll
+C:\projects\EasyER\Server\obj\Debug\net6.0\ref\EasyER.Server.dll
+C:\projects\EasyER\Server\obj\Debug\net6.0\EasyER.Server.pdb
+C:\projects\EasyER\Server\obj\Debug\net6.0\EasyER.Server.genruntimeconfig.cache
+C:\projects\EasyER\Server\bin\Debug\net6.0\web.config
+C:\projects\EasyER\Server\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\EntityFramework.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\System.CodeDom.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\Microsoft.AspNet.Identity.Core.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\web.config
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\appsettings.json
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\BlazorDebugProxy\BrowserDebugHost.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\BlazorDebugProxy\BrowserDebugHost.runtimeconfig.json
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\BlazorDebugProxy\BrowserDebugProxy.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\BlazorDebugProxy\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\BlazorDebugProxy\Microsoft.CodeAnalysis.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\BlazorDebugProxy\Newtonsoft.Json.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\EasyER.Client.staticwebassets.runtime.json
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\EasyER.Server.staticwebassets.runtime.json
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\EasyER.Server.exe
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\EasyER.Server.deps.json
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\EasyER.Server.runtimeconfig.json
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\EasyER.Server.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\ref\EasyER.Server.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\EasyER.Server.pdb
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\Duende.IdentityServer.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\Duende.IdentityServer.AspNetIdentity.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\Duende.IdentityServer.EntityFramework.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\Duende.IdentityServer.EntityFramework.Storage.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\Duende.IdentityServer.Storage.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\EntityFramework.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\Humanizer.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\IdentityModel.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\Microsoft.AspNet.Identity.Core.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\Microsoft.AspNetCore.ApiAuthorization.IdentityServer.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Components.WebAssembly.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Components.WebAssembly.Server.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\Microsoft.JSInterop.WebAssembly.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\EasyER.Client.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\EasyER.Shared.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\EasyER.Client.pdb
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\bin\Debug\net6.0\EasyER.Shared.pdb
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\obj\Debug\net6.0\EasyER.Server.csproj.AssemblyReference.cache
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\obj\Debug\net6.0\EasyER.Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\obj\Debug\net6.0\EasyER.Server.AssemblyInfoInputs.cache
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\obj\Debug\net6.0\EasyER.Server.AssemblyInfo.cs
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\obj\Debug\net6.0\EasyER.Server.csproj.CoreCompileInputs.cache
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\obj\Debug\net6.0\EasyER.Server.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\obj\Debug\net6.0\EasyER.Server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\obj\Debug\net6.0\EasyER.Server.RazorAssemblyInfo.cache
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\obj\Debug\net6.0\EasyER.Server.RazorAssemblyInfo.cs
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\obj\Debug\net6.0\scopedcss\bundle\EasyER.Server.styles.css
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\obj\Debug\net6.0\EasyER.Server.csproj.CopyComplete
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\obj\Debug\net6.0\EasyER.Server.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\obj\Debug\net6.0\ref\EasyER.Server.dll
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\obj\Debug\net6.0\EasyER.Server.pdb
+C:\Users\960225\Desktop\SAFE BACKUP EASYER\Server\obj\Debug\net6.0\EasyER.Server.genruntimeconfig.cache
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\EasyER.Client.staticwebassets.runtime.json
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\web.config
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\appsettings.json
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\BlazorDebugProxy\BrowserDebugHost.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\BlazorDebugProxy\BrowserDebugHost.runtimeconfig.json
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\BlazorDebugProxy\BrowserDebugProxy.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\BlazorDebugProxy\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\BlazorDebugProxy\Microsoft.CodeAnalysis.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\BlazorDebugProxy\Newtonsoft.Json.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\EasyER.Server.staticwebassets.runtime.json
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\EasyER.Server.exe
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\EasyER.Server.deps.json
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\EasyER.Server.runtimeconfig.json
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\EasyER.Server.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\ref\EasyER.Server.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\EasyER.Server.pdb
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\Duende.IdentityServer.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\Duende.IdentityServer.AspNetIdentity.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\Duende.IdentityServer.EntityFramework.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\Duende.IdentityServer.EntityFramework.Storage.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\Duende.IdentityServer.Storage.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\EntityFramework.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\Humanizer.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\IdentityModel.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\Microsoft.AspNet.Identity.Core.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\Microsoft.AspNetCore.ApiAuthorization.IdentityServer.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Components.WebAssembly.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Components.WebAssembly.Server.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\Microsoft.JSInterop.WebAssembly.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\EasyER.Client.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\EasyER.Shared.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\EasyER.Client.pdb
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\bin\Debug\net6.0\EasyER.Shared.pdb
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\obj\Debug\net6.0\EasyER.Server.csproj.AssemblyReference.cache
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\obj\Debug\net6.0\EasyER.Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\obj\Debug\net6.0\EasyER.Server.AssemblyInfoInputs.cache
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\obj\Debug\net6.0\EasyER.Server.AssemblyInfo.cs
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\obj\Debug\net6.0\EasyER.Server.csproj.CoreCompileInputs.cache
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\obj\Debug\net6.0\EasyER.Server.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\obj\Debug\net6.0\EasyER.Server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\obj\Debug\net6.0\EasyER.Server.RazorAssemblyInfo.cache
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\obj\Debug\net6.0\EasyER.Server.RazorAssemblyInfo.cs
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\obj\Debug\net6.0\scopedcss\bundle\EasyER.Server.styles.css
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\obj\Debug\net6.0\EasyER.Server.csproj.CopyComplete
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\obj\Debug\net6.0\EasyER.Server.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\obj\Debug\net6.0\ref\EasyER.Server.dll
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\obj\Debug\net6.0\EasyER.Server.pdb
+C:\Users\960225\Desktop\Desktop Dev Copy lol\Server\obj\Debug\net6.0\EasyER.Server.genruntimeconfig.cache
+C:\projects\EasyER\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Authorization.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Components.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Authorization.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Forms.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Web.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Metadata.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\Microsoft.JSInterop.dll
+C:\projects\EasyER\Server\bin\Debug\net6.0\System.IO.Pipelines.dll
