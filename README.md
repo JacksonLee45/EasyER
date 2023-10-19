@@ -1,2 +1,2 @@
-# 960225_EasyER
+# EasyER
 Jackson Lee - Emergency Room Scheduler
